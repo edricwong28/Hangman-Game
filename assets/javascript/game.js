@@ -8,7 +8,7 @@ var wrongGuesses = [];
 //Counters
 var wins = 0
 var losses = 0
-var guessesRemaining = 10
+var guessesRemaining = 6
 
 //FUNCTIONS
 //-----------------------------------------------------------
@@ -19,7 +19,7 @@ function startGame(){
   numBlanks = lettersInWord.length;
 
   //RESET
-    guessesRemaining = 10;
+    guessesRemaining = 6;
     blanksAndSuccesses = [];
     wrongGuesses = [];
 

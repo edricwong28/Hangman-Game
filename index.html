@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <head>
   <title>Hangman</title>
 
 </head>
 <body>
-  <container>
+  <container id='container'>
     <div>
       <h1>Lets play Hangman!</h1>
+      <h2>Guess the type of cheese!</h2>
     </div>
     <div>
-      <div>Word to Guess: <span id ="wordToGuess"></span></div>
+      <div id ="row1">Cheese to Guess: <span id ="wordToGuess"></span></div>
     <div>
-      <div>Wrong Guesses: <span id ="wrongGuesses"></span></div>
+      <div id ="row2">Wrong Guesses: <span id ="wrongGuesses"></span></div>
     </div>
     <div>
-      <div>Guesses Remaining: <span id = "guessesRemaining"></span></div>
+      <div id ="row3">Guesses Remaining: <span id = "guessesRemaining"></span></div>
     </div>
     <div>
-      <div>Wins: <span id="wins"></span></div>
+      <div id ="row4">Wins: <span id="wins"></span></div>
     </div>
     <div>
-      <div>Losses: <span id="losses"></span></div>
+      <div id ="row5">Losses: <span id="losses"></span></div>
     </div>
-
-
-
   </container>
    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

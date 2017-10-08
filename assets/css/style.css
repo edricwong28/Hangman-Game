@@ -1,0 +1,56 @@
+body{
+ background-image: url('../images/cheese.jpg');
+ background-size: cover;
+}
+
+h1{
+  text-align: center;
+  font-size: 58px;
+}
+
+h2{
+  text-align: center;
+  font-size: 34px;
+}
+
+#container{
+  margin-top: 400px;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+}
+
+#row1{
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#row2{
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#row3{
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+    
+#row4{
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
+    
+#row5{
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+}
